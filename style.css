@@ -1,0 +1,79 @@
+h1{
+ font-size: 60px;
+ text-align:;
+ border-bottom:1px solid black;
+ margin:0;
+ padding:20px;
+ padding-left: 20px;
+}
+
+body{
+ margin:0;
+}
+
+.saw {
+ color: gray
+}
+
+a{
+ color:black;
+ text-decoration: none;
+}
+
+.intro{
+  font-size: 20px;
+  align-items: center;
+  padding: 30px
+}
+ol{
+  font-size: 20px;
+  border-right: 1px solid gray;
+  width:110px;
+  margin: 0;
+  padding:20px;
+}
+h2{
+  font-size: 40px;
+
+.rotateimg90 {
+  transform: rotate(90deg);
+}
+}
+#performlist{
+  font-size: 20px
+}
+#profilename{
+  font-size: 30px;
+}
+#footer{
+  font-size: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+}
+#grid{
+      display:grid;
+      grid-template-columns: 150px 1fr;
+}
+
+#article{
+padding-left: 25px;
+margin: 20px;
+}
+
+#grid ol{
+  padding-left: 32px;
+}
+
+@media (max-width:800px){
+ #grid{
+  display:block
+     }
+     ol{
+      border-right: none
+    } h1{
+      border-bottom:none}
