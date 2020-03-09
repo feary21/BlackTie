@@ -46,8 +46,9 @@ h2{
   font-size: 30px;
 }
 #footer{
-  font-size: 10px;
-  position: fixed;
+  padding: 2px;
+  font-size: 11px;
+  position: inherit;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -77,6 +78,3 @@ margin: 20px;
       border-right: none
     } h1{
       border-bottom:none}
-@media (min-width:950){
-  
-}
